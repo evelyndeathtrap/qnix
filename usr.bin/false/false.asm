@@ -9,3 +9,4 @@ jz _start
  rdrand rcx
  rdseed rdx
 jz _start
+ xor rax, rax
