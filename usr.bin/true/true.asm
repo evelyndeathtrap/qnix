@@ -3,7 +3,7 @@ section .text
 global _start
 
 _start:
- pause
  rdseed rcx
  jz _start
+ pause
  mov rax, rcx
